@@ -39,6 +39,8 @@ export default function RegisterPage({ navigation }) {
 
             <Button title="Review and Submit" onPress={() => navigation.navigate("Review", { formData })} />
 
+            
+
         </View>
     );
 }
